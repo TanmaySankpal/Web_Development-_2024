@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ff5733; /* Orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #33c1ff; /* Light Blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+/* Article */
+article {
+    background-color: #33ff57; /* Light Green */
+    flex: 3;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Section */
+section {
+    background-color: #ff33a8; /* Pink */
+    flex: 2;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Aside */
+aside {
+    background-color: #ffeb3b; /* Yellow */
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark Gray */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

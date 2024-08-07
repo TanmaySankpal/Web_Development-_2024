@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Student Admission Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Admission Form</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#personal-info">Personal Information</a></li>
+            <li><a href="#academic-info">Academic Information</a></li>
+            <li><a href="#upload-documents">Upload Documents</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <form>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website">
+
+                <label for="favcolor">Favorite Color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+
+                <label for="profile">Profile:</label>
+                <input type="file" id="profile" name="profile">
+
+                <label for="newsletter">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <fieldset>
+                    <legend>Preferred Contact Method:</legend>
+                    <input type="radio" id="contactEmail" name="contactMethod" value="email">
+                    <label for="contactEmail">Email</label>
+                    <input type="radio" id="contactPhone" name="contactMethod" value="phone">
+                    <label for="contactPhone">Phone</label>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="academic-info">
+            <h2>Academic Information</h2>
+            <form>
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select</option>
+                    <option value="science">Science</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="arts">Arts</option>
+                </select>
+
+                <label for="grade">Grade:</label>
+                <input type="number" id="grade" name="grade" min="1" max="10" required>
+
+                <label for="school">School Name:</label>
+                <input type="text" id="school" name="school" required>
+
+                <label for="achievements">Achievements:</label>
+                <textarea id="achievements" name="achievements" rows="4"></textarea>
+            </form>
+        </section>
+
+        <section id="upload-documents">
+            <h2>Upload Documents</h2>
+            <form>
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" required>
+
+                <label for="transcript">Upload Transcript:</label>
+                <input type="file" id="transcript" name="transcript" required>
+            </form>
+        </section>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Student Admission Form. All rights reserved.</p>
+    </footer>
+</body>
+</html>
