@@ -1,0 +1,122 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/* Element Selector */
+p {
+    color: red;
+}
+
+/* Class Selector */
+.intro {
+    font-size: 20px;
+}
+
+/* ID Selector */
+#main {
+    text-align: center;
+    color: blue;
+}
+
+/* Group Selector */
+h1, h2, p {
+    color: green;
+}
+
+/* Internal CSS Example */
+.internal-css-example {
+    background-color: linen;
+}
+.internal-css-example h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+/* External CSS Example */
+.external-css-example {
+    background-color: lightgrey;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Box Model */
+.box-model {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Colors */
+.color-names {
+    color: blue;
+}
+
+.hex-color {
+    color: #ff0000;
+}
+
+.rgb-color {
+    background-color: rgb(0,255,0);
+}
+
+/* Fonts */
+.font-family {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.font-size {
+    font-size: 300%;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+/* Positioning */
+.static-position {
+    position: static;
+    background-color: yellow;
+}
+
+.relative-position {
+    position: relative;
+    left: 30px;
+    background-color: lightblue;
+}
+
+.absolute-position {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: pink;
+}
+
+.fixed-position {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightgreen;
+}
+
+/* Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 20px;
+}
